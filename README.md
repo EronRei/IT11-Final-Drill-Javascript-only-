@@ -1,5 +1,5 @@
-# IT11-Final-Drill-Javascript-only-
-
+# IT11-Final-Drill-Javascript-only
+# Eron Rei E. Masculino
 # Movie Searcher Web Application
 
 ## Overview
