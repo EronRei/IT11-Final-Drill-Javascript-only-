@@ -2,33 +2,40 @@
 # Eron Rei E. Masculino
 # Movie Searcher Web Application
 
-## Overview
+## What is this?
 
-This web application allows users to search for movies, view upcoming movies, and get comprehensive information about a selected movie. It also provides a section displaying similar movies based on the current viewed movie.
+This is a simple web application that allows users to search for movies, view upcoming movies, and explore trending movies using The Movie Database (TMDb) API.
 
-## Features
+## Why build this?
 
-1. **Search for a Movie:**
-   - Enter the name of a movie and click "Search" to find information about that movie.
+The purpose of this project is to create an interactive and user-friendly movie searcher application. It leverages the TMDb API to fetch movie data and provides features such as searching for movies, displaying upcoming movies, and showcasing trending movies.
 
-2. **Upcoming Movies:**
-   - View a list of upcoming movies with brief details.
+## How to use?
 
-3. **Comprehensive Information:**
-   - Click on a movie poster to see detailed information, including title, overview, release date, vote average, director, cast, and genre.
+### Search for a Movie
 
-4. **Similar Movies:**
-   - When viewing detailed information, a section displays similar movies with clickable posters to explore more details.
+1. Enter the name of the movie you want to search for in the "Search for a movie" input field.
+2. Click the "Search" button to see the search results.
+
+### Show Upcoming Movies
+
+1. The Upcoming Movies is displayed as the main screen.
+
+### Show Trending Movies
+
+1. Click the "Show Trending Movies" button to see a list of movies trending in the past week.
+
+### View Movie Details
+
+1. Click on a movie poster to view detailed information about that movie, including the title, overview, release date, vote average, director, cast, and similar movies.
+
+### Close Movie Details Modal
+
+1. To close the movie details modal, click the "X" button in the top right corner.
 
 ## Technologies Used
 
 - HTML
 - CSS
 - JavaScript
-- Axios (for making API requests)
-
-## How to Run
-
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
+- Axios (as the only third-party library for API requests)
